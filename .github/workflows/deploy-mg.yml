@@ -11,6 +11,7 @@ on: [push]
         # Log into Azure
       - uses: azure/login@v1
         with:
+          allow-no-subscriptions: true
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
         # Deploy ARM template
