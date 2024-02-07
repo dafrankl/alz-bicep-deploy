@@ -18,6 +18,7 @@ jobs:
       - name: Run ARM deploy
         uses: azure/arm-deploy@v1
         with:
+          region: eastus
           scope: managementgroup
           managementGroupId: alz
           template: ./infra-as-code/bicep/modules/customRoleDefinitions/customRoleDefinitions.bicep
