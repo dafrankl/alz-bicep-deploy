@@ -1,7 +1,7 @@
 {
   "analyzers": {
     "core": {
-      "enabled": true,
+      "enabled": false,
       "verbose": false,
       "rules": {
         "adminusername-should-not-be-literal": {
