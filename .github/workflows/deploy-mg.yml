@@ -19,5 +19,5 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
           scope: tenant        
-          template: ./infra-as-code/bicep/modules/managementGroups/managementGroups.bicep
-          parameters: ./infra-as-code/bicep/modules/managementGroups/parameters/managementGroups.parameters.all.json
+          template: ./infra-as-code/bicep/modules/customRoleDefinitions/customRoleDefinitions.bicep
+          parameters: ./infra-as-code/bicep/modules/customRoleDefinitions/parameters/customRoleDefinitions.parameters.all.json
